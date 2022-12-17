@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;500&display=swap');
+body{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+
+    
+}
+header{
+    font-size: 25px;
+    display: flex;
+    background-color: white;
+    width:99%;
+    height: 121px;
+    border: 0px solid white;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background:url(/image/fon.png);width: 99%;
+    width: 100%;
+    height: 140%;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
+
+}
+.goods-item{
+    list-style: none;
+    transition:all 0.2s ease-in-out;
+}
+
+.imgCard{
+    margin-top: 10px;
+    width:  17vw;
+    height: 17vw;
+    border-radius: 14px;
+}
+
+.button{
+    background-color:#0A0453 ;
+    border-radius: 15px;
+    width:17vw;
+    height: 3vw;
+    font-size: 2vw;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.buyButton{
+    background-color:#3BA706;
+    border-radius: 15px;
+    width: 17vw;
+    height: 3vw;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    margin: -5px 10px 10px;
+    transition: all 0.4s ease-in-out;
+}
+.mainCard{
+    font-size: 30px;
+    text-shadow: 1px 2px 11px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 26px;;
+    margin: 20px 6%;
+    width: 20%;
+    height: 110%;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin:3px 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+footer{
+    background-color: #A5A5A5;
+    padding: 5px 0px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-radius: 20px;
+}
+.social{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+.number{
+    width: 70%;
+}
+.footer-container{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* .goods-item:hover{
+    position:relative ;
+    cursor:pointer;
+    transform:translateY(-5px) ;
+    color:#833ae0;
+} */
+svg{
+    transition: all 0.2s ease-in-out;
+}
+svg:hover{
+    cursor: pointer;
+    position: relative;
+    transform:scale(1.1,1.1);
+}
+.goods-item {
+	color: #000000; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.goods-item:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.goods-item:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px; /* Высота линии */
+    background-color:#833ae0; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.buyButton:hover{
+    background-color: #147e02;
+    cursor: pointer;
+    color:#ffffff ;
+}
+.button:hover{
+    background-color:#0465a2 ;
+    cursor: pointer;
+}
